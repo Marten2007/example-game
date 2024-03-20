@@ -7,5 +7,8 @@ class Settings:
         # Screen settings
         self.screen_width = 800
         self.screen_height = 600
-        self.bg_color = (52, 235, 82)
+        self.bg_color = (0, 0, 200)
         self.caption = 'Bubble blaster'
+        
+        self.bubble_min_r = 10
+        self.bubble_max_r = 50
