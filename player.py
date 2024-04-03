@@ -1,3 +1,4 @@
+
 import pygame
 
 class Player(pygame.sprite.Sprite):
@@ -38,8 +39,8 @@ class Player(pygame.sprite.Sprite):
             self.rect.top = 0
         if self.moving_down and self.rect.bottom >= self.screen_rect.bottom:
             self.rect.bottom = self.screen_rect.bottom
-        
-        
-        
+
+
+
     def blit_me(self):
         self.screen.blit(self.player, self.rect)

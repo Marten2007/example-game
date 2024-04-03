@@ -1,3 +1,4 @@
+
 class Settings:
     """Class for game settings"""
     
